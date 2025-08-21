@@ -1,6 +1,7 @@
 .hero {
   padding: 96px 0;
-  background: linear-gradient(180deg, var(--tt-bg) 0%, var(--tt-surface) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, var(--tt-surface) 100%),
+    url("../../../public/hero/hero.webp") center/cover no-repeat;
   border-bottom: 1px solid var(--tt-border);
 }
 .box {
