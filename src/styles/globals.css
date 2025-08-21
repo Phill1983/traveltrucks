@@ -1,0 +1,54 @@
+:root {
+  /* Colors from PDF */
+  --tt-text: #475467; /* базовий текст */
+  --tt-muted: #6c717b; /* другорядний текст */
+  --tt-border: #dadde1; /* бордери */
+  --tt-primary: #e44848; /* CTA / primary */
+  --tt-primary-hover: #d84343; /* hover CTA */
+  --tt-accent: #ffc531; /* акценти (жовтий) */
+  --tt-bg-subtle: #f2f4f7; /* світлий фон елементів */
+  --tt-surface: #f7f7f7; /* секції/карточки */
+  --tt-bg: #ffffff;
+
+  /* Layout */
+  --tt-radius: 12px;
+  --tt-container: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  color: var(--tt-text);
+  background: var(--tt-bg);
+}
+
+button {
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+}
+.visuallyHidden {
+  position: absolute;
+  left: -9999px;
+}

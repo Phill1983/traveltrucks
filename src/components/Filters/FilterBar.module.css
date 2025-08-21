@@ -1,0 +1,58 @@
+.sidebar {
+  width: 320px;
+  flex: 0 0 320px;
+}
+.caption {
+  margin: 0 0 12px;
+  font-weight: 700;
+  color: var(--tt-text);
+}
+.group {
+  margin-bottom: 20px;
+}
+.label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--tt-text);
+}
+.input,
+.select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--tt-border);
+  border-radius: var(--tt-radius);
+  background: #fff;
+}
+.features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--tt-text);
+}
+.actions {
+  display: flex;
+  gap: 8px;
+}
+.btnPrimary {
+  background: var(--tt-primary);
+  border: none;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: var(--tt-radius);
+  font-weight: 700;
+}
+.btnPrimary:hover {
+  background: var(--tt-primary-hover);
+}
+.btnGhost {
+  background: transparent;
+  border: 1px solid var(--tt-border);
+  padding: 10px 14px;
+  border-radius: var(--tt-radius);
+}
